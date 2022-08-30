@@ -1,6 +1,5 @@
 .container {
-    background-image: url("../../assets/pexels-max-vakhtbovych-7061393.jpg");
-    background-clip: border-box;
+    background-image: url("../../assets/pexels-max-vakhtbovych-7061393.jpg");    
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -8,9 +7,6 @@
 }  
 
 div img{
-    width: 300px;
-      
+    width: 300px;      
 
 }
-
-

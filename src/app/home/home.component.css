@@ -1,0 +1,53 @@
+
+.card {
+    width:850px;
+    height: 150px;
+    /* border-radius: 4px; */
+    background: transparent;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    padding: .4em;
+    margin: -70px auto;
+  }
+  
+  .card p {
+    height: 100%;
+    flex: 1;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all .5s;
+    background: rgba(115,127,101,0.95);
+    border: 2px solid #383431;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card p:hover {
+    flex: 4;
+  }
+  
+  .card p a span {
+    min-width: 14em;
+    padding: .5em;
+    text-align: center;
+    transform: rotate(-90deg);
+    transition: all .5s;
+    text-transform: uppercase;
+    color: #383431;
+    font-weight: bold;
+    letter-spacing: .1em;
+  }
+  
+  .card p:hover span {
+    transform: rotate(0);
+  }
+  
+  a{
+    text-decoration: none;
+    color: #383431;
+  }
+

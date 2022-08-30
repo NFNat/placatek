@@ -1,0 +1,19 @@
+.container {
+    background-image: url("../../assets/wood.jpeg");    
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    color: aliceblue;
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boton{
+    margin-top: 200px;
+}
+.boton a {
+    color: aliceblue;
+    text-decoration: none;
+}

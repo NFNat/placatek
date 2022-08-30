@@ -15,6 +15,18 @@ import { CarpinteriaComponent } from './carpinteria/carpinteria.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { E404Component } from './e404/e404.component';
 import { FooterComponent } from './footer/footer.component';
+import { RouterModule, Routes } from '@angular/router';
+import { HomeComponent } from './home/home.component';
+
+
+
+const appRoutes: Routes = [
+  { path:'home', component:HomeComponent},
+  { path:'error', component:E404Component },
+  { path:'',  redirectTo: 'home', pathMatch:'full' },
+
+]
+
 
 @NgModule({
   declarations: [
@@ -29,12 +41,14 @@ import { FooterComponent } from './footer/footer.component';
     CarpinteriaComponent,
     ContactoComponent,
     E404Component,
-    FooterComponent
+    FooterComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [],
   bootstrap: [AppComponent]
