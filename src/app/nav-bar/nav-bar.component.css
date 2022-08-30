@@ -1,0 +1,18 @@
+.texto a{
+ font-size: 1.3em;
+ color: #060603;
+ transition: 700ms;
+}
+.texto a:hover {
+    transform: scale(1.05);
+    text-shadow: 4px 4px 4px rgba(6,6,3,0.92);
+    text-shadow: 9px 9px 4px rgba(6,6,3,0.92);
+    
+
+ 
+
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
