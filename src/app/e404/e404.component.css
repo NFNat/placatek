@@ -12,8 +12,28 @@
 }
 .boton{
     margin-top: 200px;
+    border: none;
 }
-.boton a {
-    color: aliceblue;
+.btn {
+    
+    text-decoration: none;    
+    background-color: #42211c;
+    padding: 10px 30px;
+    border-radius: 15px;
+    border: none;  
+    transition: 500ms;  
+    
+} 
+a{
     text-decoration: none;
+    color: aliceblue;
+}
+.btn:hover {
+    transform: scale(1.01);
+    box-shadow: 5px 5px 20px 5px rgba(0,39,47,0.81);
+}
+
+div img{
+    width: 300px;      
+
 }

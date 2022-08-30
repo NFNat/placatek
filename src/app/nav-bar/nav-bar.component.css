@@ -7,12 +7,32 @@
     transform: scale(1.05);
     text-shadow: 4px 4px 4px rgba(6,6,3,0.92);
     text-shadow: 9px 9px 4px rgba(6,6,3,0.92);
-    
-
- 
-
 }
 a{
     text-decoration: none;
     cursor: pointer;
 }
+
+@media screen and (max-width:768px){
+
+.texto a {
+    font-size: 1em;
+}
+
+}
+
+@media screen and (max-width: 615px){
+
+    .texto a {
+        font-size: 0.9em;
+    }
+    
+    }
+
+    @media screen and (max-width: 560px){
+
+        .texto a {
+            font-size: 0.8em;
+        }
+        
+        }
