@@ -8,7 +8,7 @@
     flex-direction: row;
     gap: 5px;
     padding: .4em;
-    margin: -80px auto ;
+    margin: 10px auto ;
   }
   
   .card p {
@@ -18,15 +18,17 @@
     cursor: pointer;
     border-radius: 10px;
     transition: all .5s;
-    background: rgba(115,127,101,0.95);
+    background: rgb(107, 117, 92);
+    background-position: center;
+    background-size: cover;
     border: 2px solid #383431;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  
   .card p:hover {
     flex: 4;
+    
   }
   
   .card p a span {
@@ -34,9 +36,9 @@
     padding: .5em;
     text-align: center;
     transform: rotate(-90deg);
-    transition: all .5s;
+    transition: all .3s;
     text-transform: uppercase;
-    color: #383431;
+    color: #c6c8bb;
     font-weight: bold;
     letter-spacing: .1em;
     

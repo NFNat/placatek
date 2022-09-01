@@ -1,7 +1,7 @@
 .texto a{
  font-size: 1.3em;
  color: #060603;
- transition: 700ms;
+ transition: 200ms;
 }
 .texto a:hover {
     transform: scale(1.05);

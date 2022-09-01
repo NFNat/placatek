@@ -24,6 +24,7 @@ const appRoutes: Routes = [
   { path:'home', component:HomeComponent},
   { path:'error', component:E404Component },
   { path:'',  redirectTo: 'home', pathMatch:'full' },
+  { path:'contacto', component:ContactoComponent },
 
 ]
 
