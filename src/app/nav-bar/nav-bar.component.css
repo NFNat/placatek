@@ -13,10 +13,22 @@ a{
     cursor: pointer;
 }
 
+@media screen and (max-width:960px){
+
+    
+    li{
+        margin: 0 5px;
+
+    }
+}
+
 @media screen and (max-width:768px){
 
 .texto a {
-    font-size: 1em;
+    font-size: 1.2em;
+}
+li{
+    margin: 0 2px;
 }
 
 }
@@ -32,7 +44,14 @@ a{
     @media screen and (max-width: 560px){
 
         .texto a {
-            font-size: 0.8em;
+            font-size: 15px;
+        }
+        .navbar-nav{
+            margin-left: -20px;
+        }
+        li{
+            margin: 0 ;
+    
         }
         
         }

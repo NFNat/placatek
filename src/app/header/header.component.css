@@ -10,5 +10,110 @@ div img{
     width: 300px;      
 
 }
+a{
+  text-decoration: none;
+  color: #fff;
+}
+button {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 20px 30px;
+    transition: 0.5s;
+    position: relative;
+    font-size: 17px;
+    background: #333;
+    border: none;
+    color: #fff;
+    margin-top: 300px;
+    margin-left: 700px;
+    width: 250px;
+  }
+  
+  button:hover {
+    letter-spacing: 0.25em;
+    background: #838d6e;
+    color: #838d6e;
+    box-shadow: 0 0 45px #838d6e;
+  }
+  
+  button::before {
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: #222222;
+  }
+  
+  button span {
+    position: relative;
+    z-index: 1;
+  }
+  
+  button i {
+    position: absolute;
+    inset: 0;
+    display: block;
+  }
+  
+  button i::before {
+    content: '';
+    position: absolute;
+    border: 2px solid #ff1867;
+    width: 7px;
+    height: 4px;
+    top: -3.5px;
+    left: 80%;
+    background: #222222;
+    transform: translateX(-50%);
+    transition: 0.5s;
+  }
+  
+  button:hover i::before {
+    width: 20px;
+    left: 20%;
+  }
+  
+  button i::after {
+    content: '';
+    position: absolute;
+    border: 2px solid #ff1867;
+    width: 7px;
+    height: 4px;
+    bottom: -3.5px;
+    left: 20%;
+    background: #222222;
+    transform: translateX(-50%);
+    transition: 0.5s;
+  }
+  
+  button:hover i::after {
+    width: 20px;
+    left: 80%;
+  }
 
+  @media screen and (max-width: 1000px){
+
+    button {
+        margin-left: 300px;
+    }
+    
+  }
+  @media screen and (max-width: 770px){
+
+    button {
+        margin-left: 200px;
+    }
+    
+  }
+  @media screen and (max-width: 460px){
+
+    .container{
+        width: 460px;
+    }
+
+    button {
+        margin-left: 150px;
+        height: auto;
+    }
+    
+  }
 

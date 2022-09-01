@@ -50,11 +50,11 @@ body{
     
     text-decoration: none;    
     background-color: #42211c;
-    padding: 20px 40px;
+    padding: 10px 30px;
     border-radius: 25px;
     border: none;  
     transition: 500ms; 
-    font-size: 0.5em; 
+    font-size: 0.3em; 
    
 } 
 a{
